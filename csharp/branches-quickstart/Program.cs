@@ -77,7 +77,7 @@ void ExploreLoops()
     {
         for (char column = 'a'; column < 'k'; column++)
         {
-            Console.WriteLine($"The cell is ({row}, {column})");
+            Console.WriteLine($"The cellTXY is ({row}, {column})");
         }
     }
 }
